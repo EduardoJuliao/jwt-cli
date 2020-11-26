@@ -2,7 +2,7 @@
   "name": "jwt-cli",
   "version": "0.0.1",
   "description": "",
-  "main": "src/index.js",
+  "main": "build/index.js",
   "bin": {
     "jwt-cli": "build/app.js"
   },
@@ -33,10 +33,12 @@
     "@types/clui": "^0.3.0",
     "@types/figlet": "^1.2.0",
     "@types/mocha": "^7.0.1",
+    "@types/node": "^14.14.10",
     "@types/rimraf": "^2.0.3",
     "@types/shelljs": "^0.8.6",
     "@types/yargs": "^15.0.3",
     "chai": "^4.2.0",
+    "common-js": "^0.3.8",
     "mocha": "^7.0.1",
     "ts-mocha": "^6.0.0",
     "yargs": "^15.1.0"

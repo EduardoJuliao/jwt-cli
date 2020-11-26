@@ -2,10 +2,13 @@
     "compilerOptions": {
       "target": "es5",
       "module": "commonjs",
+      "lib": ["es5", "es2015", "dom"],
+      "types": ["node"],
       "outDir": "./build",
       "rootDir": "./src",
       "strict": true,
       "esModuleInterop": true,
+      "moduleResolution": "node",
       "resolveJsonModule": true,
       "forceConsistentCasingInFileNames": true,
     },
